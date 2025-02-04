@@ -1,0 +1,61 @@
+/* Login.css */
+
+/* Set font-family globally */
+.container-fluid {
+    font-family: "Poppins", sans-serif;
+}
+
+/* Set font-family for card */
+.card {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Header styles */
+h1 {
+    font-family: "Poppins", sans-serif; /* Use Poppins for the header */
+    color: tomato;
+}
+
+/* Alert styles for success or error messages */
+.alert {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Form input fields */
+.form-control {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Button styles */
+.btn {
+    font-family: "Montserrat", sans-serif;
+    background-color: tomato;
+    color: white;
+    border: none;
+}
+
+/* Body styles for the container */
+.container-fluid {
+    background-color: #f5f5dc; /* Skin color background */
+}
+
+/* Custom styles for the login card */
+.card {
+    max-width: 400px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Card and button hover effects */
+.card:hover,
+.btn:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Align text inside the card */
+.text-center {
+    text-align: center;
+}

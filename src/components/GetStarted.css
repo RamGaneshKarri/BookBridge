@@ -1,0 +1,59 @@
+.get-started-container {
+    height: 100vh;
+    background-color: #f5f5dc; /* Biscuit/skin color background */
+    color: inherit; /* Use inherited text color */
+    font-family: "Poppins", sans-serif; /* Updated font */
+}
+
+/* Styling for the text container */
+.text-container {
+    background: rgba(255, 255, 255, 0.8); /* Subtle semi-transparent background */
+    border-radius: 10px;
+    max-width: 500px;
+    text-align: center;
+    padding: 40px;
+    font-family: "Montserrat", sans-serif; /* Updated font */
+}
+
+/* Typing effect */
+.typing-effect {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    animation: typing 3s steps(40, end), blink 0.75s step-end infinite;
+    border-right: 3px solid currentColor;
+    -webkit-animation: typing 3s steps(40, end), blink 0.75s step-end infinite;
+}
+
+/* Typing animation keyframes */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+/* Button styling */
+.get-started-btn {
+    background-color: tomato; /* Tomato button color */
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.get-started-btn:hover {
+    background-color: rgb(247, 37, 0);
+    color: white; /* Darker red on hover */
+}
